@@ -1,2 +1,1 @@
-﻿UDPServerTest.obj : error LNK2005: main já definida no main.obj
-C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\UDPServerTest\x64\Debug\UDPServerTest.exe : fatal error LNK1169: encontrados um ou mais símbolos múltiplos definidos
+﻿  UDPServerTest.vcxproj -> C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\UDPServerTest\x64\Debug\UDPServerTest.exe
