@@ -1,2 +1,6 @@
-﻿  LINK : C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\UDPClientTest\x64\Debug\UDPClientTest.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
-  UDPClientTest.vcxproj -> C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\UDPClientTest\x64\Debug\UDPClientTest.exe
+﻿  UDPClientTest.cpp
+C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\ProofofConcept\UDPClientTest\UDPClientTest.cpp(30,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\ProofofConcept\UDPClientTest\UDPClientTest.cpp(107,98): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\ProofofConcept\UDPClientTest\UDPClientTest.cpp(162,26): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
+C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\ProofofConcept\UDPClientTest\UDPClientTest.cpp(194): warning C4172: retornando o endereço da variável local ou temporário: ipAddressNumbers
+  UDPClientTest.vcxproj -> C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\ProofofConcept\UDPClientTest\x64\Debug\UDPClientTest.exe

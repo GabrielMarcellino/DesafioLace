@@ -1,1 +1,4 @@
-﻿  UDPServerTest.vcxproj -> C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\UDPServerTest\x64\Debug\UDPServerTest.exe
+﻿  UDPServerTest.cpp
+C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\ProofofConcept\UDPServerTest\UDPServerTest.cpp(73,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\ProofofConcept\UDPServerTest\UDPServerTest.cpp(74,10): warning C4834: descartando o valor retornado da função com o atributo 'nodiscard'
+  UDPServerTest.vcxproj -> C:\Users\gabri\OneDrive\Documentos\GitHub\DesafioLace\ProofofConcept\UDPServerTest\x64\Debug\UDPServerTest.exe

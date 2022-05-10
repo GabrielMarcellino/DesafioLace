@@ -1,14 +1,17 @@
 // UDPServerTest.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
 //
 
+#include <future>
 #include <iostream>
 #include <WS2tcpip.h>
+#include <string>
+
 
 #pragma comment (lib, "ws2_32.lib")
 
 using namespace std;
 
-void main()
+void ReadPort()
 {
     //Open socket
     WSADATA data;
@@ -28,7 +31,7 @@ void main()
     serverHint.sin_family = AF_INET;
     serverHint.sin_port = htons(54000);
 
-    if (bind(portListener, (sockaddr*)&serverHint, sizeof(serverHint)) == SOCKET_ERROR) {
+    if (::bind(portListener, (sockaddr*)&serverHint, sizeof(serverHint)) == SOCKET_ERROR) {
         cout << "Unable to bind to socket" << WSAGetLastError() << endl;
         return;
     }
@@ -64,9 +67,16 @@ void main()
 
     //Clear Web Socket
     WSACleanup();
+}
+
+void main()
+{
+    async(ReadPort);
 
     return;
 }
+
+
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
 // Depurar programa: F5 ou menu Depurar > Iniciar Depuração
